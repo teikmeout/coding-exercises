@@ -25,12 +25,12 @@
 // Sum across the primary diagonal: 11 + 5 - 12 = 4
 // Sum across the secondary diagonal: 4 + 5 + 10 = 19
 // Difference: |4 - 19| = 15
-let n = 3
+let n = 3;
 let arrr = [[11,2,4],[4,5,6],[10,8,-12]];
 console.log(arrr);
 let acum = 0;
 let acum2 = 0;
-// declaring two indexes one on 0
+// declaring two indexes one on 0, one on length-1
 // and one on length-1, walking them inverse
 for (let j = n-1, a = 0; j >= 0; j--, a++)  {
   // console.log(a);
